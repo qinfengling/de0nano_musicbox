@@ -29,12 +29,6 @@ set_location_assignment PIN_D3 -to SPEAKER
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SPEAKER
 
 #============================================================
-# LED
-#============================================================
-set_location_assignment PIN_L3 -to LED
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED
-
-#============================================================
 # End of pin assignments by Terasic System Builder
 #============================================================
 
