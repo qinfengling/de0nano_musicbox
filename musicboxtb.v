@@ -12,10 +12,9 @@ module musicboxtb;
   always #20 clk = !clk;
 
   wire speaker;
-  wire led;
-  musicbox mb (clk, speaker, led);
+  musicbox mb (clk, speaker);
 
   initial
-     $monitor("At time %t, speaker = %h (%0d), led = %h (%0d)",
-              $time, speaker, speaker, led, led);
+     $monitor("At time %t, speaker = %h (%0d)",
+              $time, speaker, speaker);
 endmodule
